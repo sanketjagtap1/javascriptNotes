@@ -4,20 +4,20 @@
 
    -    JavaScript is a loosely typed language, meaning variables can store any type of data without having to specify the type explicitly when the variable is declared. Variables are simply labels that store data, and the type of data they store can change during runtime. JavaScript has two primary categories of data types:
 
-    **- i. Primitive Types**
-    **- ii. Reference Types**
+    - ** i. Primitive Types **
+    - ** ii. Reference Types **
 
     -   Understanding these categories is essential to working with JavaScript effectively because each category behaves differently when assigned to variables, passed as arguments, or manipulated in various ways.
 
-### 1. Primitive Types
+### ** 1. Primitive Types **
 
-    - Primitive types are the simplest data types in JavaScript. They are immutable and hold a single value. When you assign a primitive value to a variable, the variable contains the actual value, and the value cannot be changed directly.
+-  Primitive types are the simplest data types in JavaScript. They are immutable and hold a single value. When you assign a primitive value to a variable, the variable contains the actual value, and the value cannot be changed directly.
 
-#### **i. String**
+#### ** i. String **
 
-    * A string is a sequence of characters used to represent textual data.
+    A string is a sequence of characters used to represent textual data.
 
-    * Strings in JavaScript are immutable, meaning once they are created, they cannot be changed. Any modification to a string returns a new string, leaving the original unchanged.
+     Strings in JavaScript are immutable, meaning once they are created, they cannot be changed. Any modification to a string returns a new string, leaving the original unchanged.
 
 ```javascript
 let name = "John";            // A simple string
