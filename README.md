@@ -4,8 +4,8 @@
 
    -    JavaScript is a loosely typed language, meaning variables can store any type of data without having to specify the type explicitly when the variable is declared. Variables are simply labels that store data, and the type of data they store can change during runtime. JavaScript has two primary categories of data types:
 
--     **i. Primitive Types**
--     **ii. Reference Types**
+-    **i. Primitive Types**
+-    **ii. Reference Types**
 
     -   Understanding these categories is essential to working with JavaScript effectively because each category behaves differently when assigned to variables, passed as arguments, or manipulated in various ways.
 
