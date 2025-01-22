@@ -4,8 +4,8 @@
 
    -    JavaScript is a loosely typed language, meaning variables can store any type of data without having to specify the type explicitly when the variable is declared. Variables are simply labels that store data, and the type of data they store can change during runtime. JavaScript has two primary categories of data types:
 
-    - **i. Primitive Types**
-    - **ii. Reference Types**
+-     **i. Primitive Types**
+-     **ii. Reference Types**
 
     -   Understanding these categories is essential to working with JavaScript effectively because each category behaves differently when assigned to variables, passed as arguments, or manipulated in various ways.
 
@@ -27,7 +27,7 @@ let greeting = `Hello, ${name}!`; // Template literal (can include variables)
 
 #### **ii. Number**
 
-* A number is a numeric value that can be an integer or a floating-point number.
+- A number is a numeric value that can be an integer or a floating-point number.
 
 ```javascript
 let age = 30;            // An integer
@@ -36,16 +36,16 @@ let height = 1.75;       // A floating-point number
 
 #### **iii. Boolean**
 
-* A boolean is a logical value that can be either true or false.
+- A boolean is a logical value that can be either true or false.
 
 ```javascript
 let isAdmin = true;       // A boolean value
 let isGuest = false;      // Another boolean value
 ```
 
-#### iv. Null
+#### **iv. Null**
 
-* Null is a special value that represents the absence of any object value.
+- Null is a special value that represents the absence of any object value.
 
 ```javascript
 let user = null;          // A null value
@@ -53,7 +53,7 @@ let user = null;          // A null value
 
 #### **v. Undefined**
 
-* Undefined is a special value that represents an uninitialized variable.
+- Undefined is a special value that represents an uninitialized variable.
 
 ```javascript
 let username;             // An uninitialized variable
@@ -79,11 +79,11 @@ let uniqueKey = Symbol('uniqueKey'); // A Symbol value
 
 ### **1. Primitive Types**
 
-    Reference type are more complex data structures. Unlike primitive types, reference type store the memory address (reference) to the actual value, meaning changes to the one reference variable affect the other variables that points to the same objects.
+-  Reference type are more complex data structures. Unlike primitive types, reference type store the memory address (reference) to the actual value, meaning changes to the one reference variable affect the other variables that points to the same objects.
 
 #### **i. Object:**
 
-    * Objects are collection of key value pairs, where each key is a string (or symbol), and each value can be any data type, including other objects.
+-  Objects are collection of key value pairs, where each key is a string (or symbol), and each value can be any data type, including other objects.
 
     ```javascript
         let person = {
