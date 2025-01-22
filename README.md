@@ -2,21 +2,22 @@
 
 ## 1) Variables and Data Types:
 
-    JavaScript is a loosely typed language, meaning variables can store any type of data without having to specify the type explicitly when the variable is declared. Variables are simply labels that store data, and the type of data they store can change during runtime. JavaScript has two primary categories of data types:
+   -    JavaScript is a loosely typed language, meaning variables can store any type of data without having to specify the type explicitly when the variable is declared. Variables are simply labels that store data, and the type of data they store can change during runtime. JavaScript has two primary categories of data types:
 
-    ** - i. Primitive Types**
-    ** - ii. Reference Types**
+    **- i. Primitive Types**
+    **- ii. Reference Types**
 
-    Understanding these categories is essential to working with JavaScript effectively because each category behaves differently when assigned to variables, passed as arguments, or manipulated in various ways.
+    -   Understanding these categories is essential to working with JavaScript effectively because each category behaves differently when assigned to variables, passed as arguments, or manipulated in various ways.
 
 ### 1. Primitive Types
 
-- Primitive types are the simplest data types in JavaScript. They are immutable and hold a single value. When you assign a primitive value to a variable, the variable contains the actual value, and the value cannot be changed directly.
+    - Primitive types are the simplest data types in JavaScript. They are immutable and hold a single value. When you assign a primitive value to a variable, the variable contains the actual value, and the value cannot be changed directly.
 
 #### **i. String**
 
-* A string is a sequence of characters used to represent textual data.
-* Strings in JavaScript are immutable, meaning once they are created, they cannot be changed. Any modification to a string returns a new string, leaving the original unchanged.
+    * A string is a sequence of characters used to represent textual data.
+
+    * Strings in JavaScript are immutable, meaning once they are created, they cannot be changed. Any modification to a string returns a new string, leaving the original unchanged.
 
 ```javascript
 let name = "John";            // A simple string
@@ -33,7 +34,7 @@ let age = 30;            // An integer
 let height = 1.75;       // A floating-point number
 ```
 
-#### iii. Boolean
+#### **iii. Boolean**
 
 * A boolean is a logical value that can be either true or false.
 
@@ -50,7 +51,7 @@ let isGuest = false;      // Another boolean value
 let user = null;          // A null value
 ```
 
-#### v. Undefined
+#### **v. Undefined**
 
 * Undefined is a special value that represents an uninitialized variable.
 
@@ -59,7 +60,7 @@ let username;             // An uninitialized variable
 console.log(username);    // Output: undefined
 ```
 
-#### vi. BigInt
+#### **vi. BigInt**
 
 * BigInt is a numeric value that can represent integers with arbitrary precision.
 
@@ -67,7 +68,7 @@ console.log(username);    // Output: undefined
 let largeNumber = 12345678901234567890n; // A BigInt value
 ```
 
-#### vii. Symbol
+#### **vii. Symbol**
 
 * Symbol is a unique and immutable value that can be used as a property key in objects.
 
@@ -76,11 +77,11 @@ let uniqueKey = Symbol('uniqueKey'); // A Symbol value
 ```
 
 
-### 1. Primitive Types
+### **1. Primitive Types**
 
     Reference type are more complex data structures. Unlike primitive types, reference type store the memory address (reference) to the actual value, meaning changes to the one reference variable affect the other variables that points to the same objects.
 
-#### i. Object:
+#### **i. Object:**
 
     * Objects are collection of key value pairs, where each key is a string (or symbol), and each value can be any data type, including other objects.
 
