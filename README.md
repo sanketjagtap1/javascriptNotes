@@ -7,7 +7,7 @@
 -    **i. Primitive Types**
 -    **ii. Reference Types**
 
-    -   Understanding these categories is essential to working with JavaScript effectively because each category behaves differently when assigned to variables, passed as arguments, or manipulated in various ways.
+  - Understanding these categories is essential to working with JavaScript effectively because each category behaves differently when assigned to variables, passed as arguments, or manipulated in various ways.
 
 ### **1. Primitive Types**
 
